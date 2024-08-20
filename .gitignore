@@ -1,0 +1,18 @@
+# Ignore IDE settings
+.idea/
+
+# Ignore node modules in front-end
+Front-End/node_modules/
+
+# Ignore the SQL Information file
+SQL and PostgresSQL Information.txt
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore .vscode
+.vscode
+
+#Ignore .env
+.env

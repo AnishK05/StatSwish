@@ -1,0 +1,7 @@
+com\nba\nba_zone\player\PlayerRepository.class
+com\nba\nba_zone\NbaZoneApplication.class
+com\nba\nba_zone\player\PlayerController.class
+com\nba\nba_zone\player\PlayerService.class
+com\nba\nba_zone\player\WebConfig.class
+com\nba\nba_zone\player\Player.class
+com\nba\nba_zone\player\WebConfig$1.class

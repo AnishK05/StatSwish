@@ -1,0 +1,29 @@
+{
+    "positions": [
+        {
+            "title": "Centers",
+            "abbreviation": "C",
+            "cover": "positionsPics/center.png"
+        },
+        {
+            "title": "Power Forwards",
+            "abbreviation": "PF",
+            "cover": "positionsPics/powerforward.png"
+        },
+        {
+            "title": "Small Forwards",
+            "abbreviation": "SF",
+            "cover": "positionsPics/smallforward.png"
+        },
+        {
+            "title": "Shooting Guards",
+            "abbreviation": "SG",
+            "cover": "positionsPics/shootingguard.png"
+        },
+        {
+            "title": "Point Guards",
+            "abbreviation": "PG",
+            "cover": "positionsPics/pointguard.png"
+        }
+    ]
+}

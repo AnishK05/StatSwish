@@ -1,0 +1,108 @@
+.match-predictor {
+    padding: 20px;
+    color: #222;
+    margin-top: -7%;
+    animation: fadeIn 1.5s ease-in-out;
+
+    h1.match-predictor-title {
+        margin-bottom: -1%;
+        text-align: left;
+        padding: 2%;
+        margin-left: -1.5%;
+    }
+
+    h3.caption {
+        font-size: 1.5rem;
+        margin-left: 0.5%;
+        margin-bottom: -0.5%;
+        color: #2745b0;
+        text-align: left;
+    }
+
+    h3.selector-title {
+        margin-bottom: 0.25%;
+        text-align: left;
+        padding: 2%;
+        margin-left: -1.5%;
+        color: #222;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .team-selection {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            select {
+                width: 50%;
+                padding: 10px;
+                border: 2px solid #E6B17E;
+                border-radius: 20px;
+                background-color: #fff;
+                color: #000;
+                font-size: 16px;
+                font-family: 'Roboto', sans-serif;
+
+                &:focus {
+                    outline: none;
+                    border-color: #2745b0;
+                }
+            }
+        }
+
+        .predict-button {
+            margin-top: 3%;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background-color: #2745b0;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px; 
+            font-family: 'Roboto', sans-serif;
+
+            &:hover {
+                background-color: #E6B17E;
+            }
+        }
+    }
+
+    .result {
+        margin-top: 5%;
+        padding: 10px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #E6B17E;
+        background-color: #2745b0;
+        border-radius: 10px;
+        text-align: center;
+        width: 50%;
+        text-shadow: 1px 1px 2px #000, 0 0 1em #fff, 0 0 0.2em #fff;
+    } 
+
+    a {
+        color: #E6B17E;
+  
+        &:hover {
+          text-decoration: underline;
+          color: darkorange;
+        }
+    }
+} 
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

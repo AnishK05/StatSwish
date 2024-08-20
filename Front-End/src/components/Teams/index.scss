@@ -1,0 +1,122 @@
+.teams-page {
+    padding: 20px;
+    color: #222;
+    margin-top: -7%;
+    animation: fadeIn 1.5s ease-in-out;
+
+    h1.team-page-title {
+        margin-bottom: -1%;
+        text-align: left;
+        padding: 2%;
+        margin-left: -1.5%;
+    }
+
+    .team-search-bar {
+        margin-bottom: 50px;
+        width: 50%;
+        margin-left: 0.5%;
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #E6B17E;
+            border-radius: 20px;
+            background-color: #fff;
+            color: #000;
+
+            &:focus {
+                outline: none;
+                border-color: #2745b0;
+            }
+        }
+    }
+
+    .team-images-container {
+        display: grid; /* Change to grid layout */
+        grid-template-columns: repeat(5, 1fr); /* 5 per column */
+        gap: 80px; /* Space between boxes */
+        margin-top: 40px; /* Add some space above */
+    }
+
+    .team-image-box {
+        position: relative;
+        height: 250px; /* Maintain height */
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        .teams-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .team-content {
+            position: absolute;
+            bottom: -70px;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            transition: bottom 0.3s ease-in-out;
+            height: auto;
+
+            .team-title {
+                margin: 5px;
+                font-size: 18px;
+                color: #fff;
+            }
+
+            .team-btn {
+                margin-top: 20px;
+                padding: 5px 10px;
+                background-color: #E6B17E;
+                border: none;
+                color: #000;
+                cursor: pointer;
+                text-decoration: none;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+        }
+
+        &:hover .team-content {
+            bottom: 0px;
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .teams-page {
+        overflow-x: auto; /* Allow horizontal scrolling */
+        padding: 20px;
+    }
+
+    .team-images-container {
+        grid-template-columns: repeat(5, 80vw); /* Adjust for horizontal scrolling */
+        gap: 10px; /* Reduce gap for smaller screens */
+        width: max-content; /* Ensure the container fits the content */
+    }
+
+    .team-image-box {
+        width: 50vw; /* Ensure images are smaller */
+    }
+}

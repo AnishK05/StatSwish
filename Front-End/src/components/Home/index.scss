@@ -1,0 +1,142 @@
+$logo-color: #E6B17E;
+$navbar-color: #2745b0;
+
+.home-container {
+  position: relative; // Use relative positioning for the container
+  padding: 5%; // Use percentage for padding
+  height: 100%; // Allow full height without scrolling
+  display: flex; // Use flexbox for layout
+  flex-direction: column; // Stack elements vertically
+  align-items: flex-start; // Align items to the start (left)
+  transition: opacity 1.5s ease-in-out;
+  opacity: 0;
+
+  &.loaded {
+    opacity: 1;
+  }
+}
+
+.home-img {
+  width: 15%; // Use percentage for width
+  height: auto;
+  margin-bottom: 2%; // Space below the image
+  margin-top: -7%; //Space between image and navigation bar
+}
+
+.home-text {
+  width: 40%; // Use percentage for width
+  max-height: 90%; // Limit height to avoid overflow
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .home-title {
+    font-size: 2.5rem; // Use rem for font-size
+    color: $logo-color;
+    margin: 0; // Remove default margin
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  .home-subtitle {
+    font-size: 1.5rem;
+    color: $navbar-color;
+    margin-top: 10px; 
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  h3 {
+    font-size: 1.2rem; 
+    color: #000;
+    margin-top: 10px; 
+    animation: fadeIn 2.5s ease-in-out;
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 1rem;
+    color: #222;
+    margin-top: 10px; 
+    animation: fadeIn 3s ease-in-out;
+    text-align: left;
+
+    a {
+      color: $logo-color;
+
+      &:hover {
+        text-decoration: underline;
+        color: darkorange;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .home-container {
+    padding: 5%;
+
+    .home-img {
+      width: 20%;
+    }
+
+    .home-text {
+      width: 50%;
+    }
+
+    .home-title {
+      font-size: 2rem;
+    }
+
+    .home-subtitle {
+      font-size: 1.2rem; 
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    h4 {
+      font-size: 0.9rem; 
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home-container {
+    padding: 5%;
+
+    .home-img {
+      width: 25%;
+    }
+
+    .home-text {
+      width: 80%;
+
+      .home-title {
+        font-size: 1.5rem;
+      }
+
+      .home-subtitle {
+        font-size: 1rem;
+      }
+
+      h3 {
+        font-size: 0.9rem;
+      }
+
+      h4 {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

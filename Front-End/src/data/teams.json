@@ -1,0 +1,154 @@
+{
+    "teams": [
+      {
+        "title": "Atlanta Hawks",
+        "abbreviation": "ATL",
+        "cover": "teamsPics/atlanta.png"
+      },
+      {
+        "title": "Boston Celtics",
+        "abbreviation": "BOS",
+        "cover": "teamsPics/boston.png"
+      },
+      {
+        "title": "Brooklyn Nets",
+        "abbreviation": "BRK",
+        "cover": "teamsPics/brooklyn.png"
+      },
+      {
+        "title": "Charlotte Hornets",
+        "abbreviation": "CHO",
+        "cover": "teamsPics/charlotte.png"
+      },
+      {
+        "title": "Chicago Bulls",
+        "abbreviation": "CHI",
+        "cover": "/teamsPics/chicago.png"
+      },
+      {
+        "title": "Cleveland Cavaliers",
+        "abbreviation": "CLE",
+        "cover": "/teamsPics/cleveland.png"
+      },
+      {
+        "title": "Dallas Mavericks",
+        "abbreviation": "DAL",
+        "cover": "/teamsPics/dallas.png"
+      },
+      {
+        "title": "Denver Nuggets",
+        "abbreviation": "DEN",
+        "cover": "/teamsPics/denver.png"
+      },
+      {
+        "title": "Detroit Pistons",
+        "abbreviation": "DET",
+        "cover": "/teamsPics/detroit.png"
+      },
+      {
+        "title": "Golden State Warriors",
+        "abbreviation": "GSW",
+        "cover": "/teamsPics/goldenstate.png"
+      },
+      {
+        "title": "Houston Rockets",
+        "abbreviation": "HOU",
+        "cover": "/teamsPics/houston.png"
+      },
+      {
+        "title": "Indiana Pacers",
+        "abbreviation": "IND",
+        "cover": "/teamsPics/indiana.png"
+      },
+      {
+        "title": "Los Angeles Clippers",
+        "abbreviation": "LAC",
+        "cover": "/teamsPics/laclippers.png"
+      },
+      {
+        "title": "Los Angeles Lakers",
+        "abbreviation": "LAL",
+        "cover": "/teamsPics/lalakers.png"
+      },
+      {
+        "title": "Memphis Grizzlies",
+        "abbreviation": "MEM",
+        "cover": "/teamsPics/memphis.png"
+      },
+      {
+        "title": "Miami Heat",
+        "abbreviation": "MIA",
+        "cover": "/teamsPics/miami.png"
+      },
+      {
+        "title": "Milwaukee Bucks",
+        "abbreviation": "MIL",
+        "cover": "/teamsPics/milwaukee.png"
+      },
+      {
+        "title": "Minnesota Timberwolves",
+        "abbreviation": "MIN",
+        "cover": "/teamsPics/minnesota.png"
+      },
+      {
+        "title": "New Orleans Pelicans",
+        "abbreviation": "NOP",
+        "cover": "/teamsPics/neworleans.png"
+      },
+      {
+        "title": "New York Knicks",
+        "abbreviation": "NYK",
+        "cover": "/teamsPics/newyork.png"
+      },
+      {
+        "title": "Oklahoma City Thunder",
+        "abbreviation": "OKC",
+        "cover": "/teamsPics/oklahoma.png"
+      },
+      {
+        "title": "Orlando Magic",
+        "abbreviation": "ORL",
+        "cover": "/teamsPics/orlando.png"
+      },
+      {
+        "title": "Philadelphia 76ers",
+        "abbreviation": "PHI",
+        "cover": "/teamsPics/philadelphia.png"
+      },
+      {
+        "title": "Phoenix Suns",
+        "abbreviation": "PHO",
+        "cover": "/teamsPics/phoenix.png"
+      },
+      {
+        "title": "Portland Trail Blazers",
+        "abbreviation": "POR",
+        "cover": "/teamsPics/portland.png"
+      },
+      {
+        "title": "Sacramento Kings",
+        "abbreviation": "SAC",
+        "cover": "/teamsPics/sacramento.png"
+      },
+      {
+        "title": "San Antonio Spurs",
+        "abbreviation": "SAS",
+        "cover": "/teamsPics/sanantonio.png"
+      },
+      {
+        "title": "Toronto Raptors",
+        "abbreviation": "TOR",
+        "cover": "/teamsPics/toronto.png"
+      },
+      {
+        "title": "Utah Jazz",
+        "abbreviation": "UTA",
+        "cover": "/teamsPics/utah.png"
+      },
+      {
+        "title": "Washington Wizards",
+        "abbreviation": "WAS",
+        "cover": "/teamsPics/washington.png"
+      }
+    ]
+  }  

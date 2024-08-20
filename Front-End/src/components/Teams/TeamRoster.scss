@@ -1,0 +1,33 @@
+.team-roster-container {
+    padding: 20px;
+    color: #222;
+    margin-top: -4%;
+    overflow-x: auto;
+
+    h1 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .team-players-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        overflow-x: auto;
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2745b0;
+            color: #fff;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    }
+}

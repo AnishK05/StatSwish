@@ -1,0 +1,121 @@
+.positions-page {
+    padding: 20px;
+    color: #222;
+    margin-top: -7%;
+    animation: fadeIn 1.5s ease-in-out;
+
+    h1.position-page-title {
+        margin-bottom: -1%;
+        text-align: left;
+        padding: 2%;
+        margin-left: -1.5%;
+    }
+
+    .position-search-bar {
+        margin-bottom: 50px;
+        width: 50%;
+        margin-left: 0.5%;
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #E6B17E;
+            border-radius: 20px;
+            background-color: #fff;
+            color: #000;
+
+            &:focus {
+                outline: none;
+                border-color: #2745b0;
+            }
+        }
+    }
+
+    .position-images-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        gap: 80px;
+        margin-top: 40px;
+    }
+
+    .position-image-box {
+        position: relative;
+        height: 250px;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        .positions-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .position-content {
+            position: absolute;
+            bottom: -70px;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            transition: all 0.3s;
+
+            .position-title {
+                margin: 5px;
+                font-size: 18px;
+                color: #fff;
+            }
+
+            .position-btn {
+                margin-top: 20px;
+                padding: 5px 10px;
+                background-color: #E6B17E;
+                border: none;
+                color: #000;
+                cursor: pointer;
+                text-decoration: none;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+        }
+
+        &:hover .position-content {
+            bottom: 0;
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .positions-page {
+        overflow-x: auto;
+        padding: 20px;
+    }
+
+    .position-images-container {
+        grid-template-columns: repeat(2, 1fr); /* Adjust columns for smaller screens */
+        gap: 10px;
+        width: max-content;
+    }
+
+    .position-image-box {
+        width: 50vw;
+    }
+}

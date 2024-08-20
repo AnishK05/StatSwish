@@ -1,0 +1,214 @@
+{
+    "teams": [
+        {
+            "name": "Atlanta Hawks",
+            "FGp": 0.539,
+            "FTr": 0.797,
+            "ORBp": 0.279,
+            "TOVp": 0.116
+        },
+        {
+            "name": "Boston Celtics",
+            "FGp": 0.578,
+            "FTr": 0.807,
+            "ORBp": 0.249,
+            "TOVp": 0.108
+        },
+        {
+            "name": "Brooklyn Nets",
+            "FGp": 0.531,
+            "FTr": 0.756,
+            "ORBp": 0.252,
+            "TOVp": 0.118
+        },
+        {
+            "name": "Charlotte Hornets",
+            "FGp": 0.529,
+            "FTr": 0.786,
+            "ORBp": 0.211,
+            "TOVp": 0.126
+        },
+        {
+            "name": "Chicago Bulls",
+            "FGp": 0.534,
+            "FTr": 0.791,
+            "ORBp": 0.251,
+            "TOVp": 0.110
+        },
+        {
+            "name": "Cleveland Cavaliers",
+            "FGp": 0.557,
+            "FTr": 0.765,
+            "ORBp": 0.232,
+            "TOVp": 0.124
+        },
+        {
+            "name": "Dallas Mavericks",
+            "FGp": 0.562,
+            "FTr": 0.758,
+            "ORBp": 0.222,
+            "TOVp": 0.112
+        },
+        {
+            "name": "Denver Nuggets",
+            "FGp": 0.562,
+            "FTr": 0.762,
+            "ORBp": 0.255,
+            "TOVp": 0.115
+        },
+        {
+            "name": "Detroit Pistons",
+            "FGp": 0.526,
+            "FTr": 0.785,
+            "ORBp": 0.239,
+            "TOVp": 0.135
+        },
+        {
+            "name": "Golden State Warriors",
+            "FGp": 0.557,
+            "FTr": 0.780,
+            "ORBp": 0.275,
+            "TOVp": 0.125
+        },
+        {
+            "name": "Houston Rockets",
+            "FGp": 0.529,
+            "FTr": 0.773,
+            "ORBp": 0.251,
+            "TOVp": 0.112
+        },
+        {
+            "name": "Indiana Pacers",
+            "FGp": 0.578,
+            "FTr": 0.782,
+            "ORBp": 0.238,
+            "TOVp": 0.113
+        },
+        {
+            "name": "Los Angeles Clippers",
+            "FGp": 0.561,
+            "FTr": 0.825,
+            "ORBp": 0.244,
+            "TOVp": 0.120
+        },
+        {
+            "name": "Los Angeles Lakers",
+            "FGp": 0.566,
+            "FTr": 0.782,
+            "ORBp": 0.199,
+            "TOVp": 0.125
+        },
+        {
+            "name": "Memphis Grizzlies",
+            "FGp": 0.509,
+            "FTr": 0.764,
+            "ORBp": 0.238,
+            "TOVp": 0.134
+        },
+        {
+            "name": "Miami Heat",
+            "FGp": 0.538,
+            "FTr": 0.818,
+            "ORBp": 0.218,
+            "TOVp": 0.117
+        },
+        {
+            "name": "Milwaukee Bucks",
+            "FGp": 0.568,
+            "FTr": 0.774,
+            "ORBp": 0.218,
+            "TOVp": 0.115
+        },
+        {
+            "name": "Minnesota Timberwolves",
+            "FGp": 0.560,
+            "FTr": 0.777,
+            "ORBp": 0.232,
+            "TOVp": 0.130
+        },
+        {
+            "name": "New Orleans Pelicans",
+            "FGp": 0.558,
+            "FTr": 0.771,
+            "ORBp": 0.244,
+            "TOVp": 0.118
+        },
+        {
+            "name": "New York Knicks",
+            "FGp": 0.540,
+            "FTr": 0.780,
+            "ORBp": 0.294,
+            "TOVp": 0.119
+        },
+        {
+            "name": "Oklahoma City Thunder",
+            "FGp": 0.573,
+            "FTr": 0.825,
+            "ORBp": 0.211,
+            "TOVp": 0.114
+        },
+        {
+            "name": "Orlando Magic",
+            "FGp": 0.541,
+            "FTr": 0.759,
+            "ORBp": 0.253,
+            "TOVp": 0.133
+        },
+        {
+            "name": "Philadelphia 76ers",
+            "FGp": 0.532,
+            "FTr": 0.826,
+            "ORBp": 0.248,
+            "TOVp": 0.107
+        },
+        {
+            "name": "Phoenix Suns",
+            "FGp": 0.565,
+            "FTr": 0.808,
+            "ORBp": 0.250,
+            "TOVp": 0.134
+        },
+        {
+            "name": "Portland Trail Blazers",
+            "FGp": 0.502,
+            "FTr": 0.791,
+            "ORBp": 0.275,
+            "TOVp": 0.134
+        },
+        {
+            "name": "Sacramento Kings",
+            "FGp": 0.556,
+            "FTr": 0.745,
+            "ORBp": 0.245,
+            "TOVp": 0.116
+        },
+        {
+            "name": "San Antonio Spurs",
+            "FGp": 0.532,
+            "FTr": 0.782,
+            "ORBp": 0.229,
+            "TOVp": 0.132
+        },
+        {
+            "name": "Toronto Raptors",
+            "FGp": 0.535,
+            "FTr": 0.756,
+            "ORBp": 0.242,
+            "TOVp": 0.124
+        },
+        {
+            "name": "Utah Jazz",
+            "FGp": 0.539,
+            "FTr": 0.830,
+            "ORBp": 0.281,
+            "TOVp": 0.136
+        },
+        {
+            "name": "Washington Wizards",
+            "FGp": 0.538,
+            "FTr": 0.764,
+            "ORBp": 0.200,
+            "TOVp": 0.122
+        }
+    ]
+}
