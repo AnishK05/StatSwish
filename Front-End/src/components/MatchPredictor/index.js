@@ -31,7 +31,7 @@ const MatchPredictor = () => {
             return;
         }
 
-        fetch('http://localhost:5000/predict', {
+        fetch('https://statswishml.onrender.com/predict', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
