@@ -73,7 +73,7 @@ const Search = () => {
         }
 
         try {
-            const response = await axios.get('http://localhost:8080/api/v1/player', {
+            const response = await axios.get('https://statswish.onrender.com/api/v1/player', {
                 params: {
                     [searchCriteria]: adjustedSearchTerm,
                 },
