@@ -14,7 +14,7 @@ const TeamRoster = () => {
     useEffect(() => {
         const fetchPlayers = async () => {
             try {
-                const response = await axios.get(`http://localhost:8080/api/v1/player?team=${teamName}`);
+                const response = await axios.get(`https://statswish.onrender.com/api/v1/player?team=${teamName}`);
                 setPlayers(response.data); // Assuming the response is an array of players
                 setError(null); // Clear previous errors
             } catch (error) {
