@@ -10,6 +10,7 @@ const MatchPredictor = () => {
     const [homeTeam, setHomeTeam] = useState('');
     const [awayTeam, setAwayTeam] = useState('');
     const [prediction, setPrediction] = useState('');
+    const [loading, setLoading] = useState(false);
     const resultRef = useRef(null);
 
     const handleHomeTeamChange = (e) => {
@@ -30,6 +31,8 @@ const MatchPredictor = () => {
             alert('Please choose different teams');
             return;
         }
+
+        setLoading(true); // Set loading to true before fetching
 
         fetch('https://statswishml.onrender.com/predict', {
             method: 'POST',
@@ -57,10 +60,13 @@ const MatchPredictor = () => {
                 }
                 else {
                     setPrediction(`${winningTeam} will win! (${awayProb}% odds)`);
-                }  
+                }
+                
+                setLoading(false); // Set loading to false after processing data
             })
             .catch((error) => {
                 console.error('Error fetching prediction:', error);
+                setLoading(false); // Set loading to false after processing data
             });
     };
 
@@ -95,7 +101,8 @@ const MatchPredictor = () => {
                 </div>
                 <button className="predict-button" type="submit">Predict</button>
             </form>
-            {prediction && <div className="result" ref={resultRef}>{prediction}</div>}
+            {loading && <div className="spinner"></div>} {/* Loading indicator */}
+            {prediction && !loading && <div className="result" ref={resultRef}>{prediction}</div>}
         </div>
     );
 };
