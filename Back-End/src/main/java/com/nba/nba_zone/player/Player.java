@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 //Download following dependencies during spring.start.io: Spring Web, Spring Data JPA, PostgreSQL Driver
 
 @Entity //Allows us to declare this as JPA Entity (java class that can be mapped to database tables)
-@Table(name="player_statistic") //Name of data table being used
+@Table(name="statswishtable") //Name of data table being used
 public class Player
 {
     //Variables for each statistic in data table
