@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.nba.nba_zone.NbaZoneApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.069 s -- in com.nba.nba_zone.NbaZoneApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.320 s -- in com.nba.nba_zone.NbaZoneApplicationTests
