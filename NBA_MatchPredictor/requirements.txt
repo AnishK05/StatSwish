@@ -1,0 +1,9 @@
+Flask==2.2.5
+joblib==1.2.0
+pandas==1.5.2
+matplotlib==3.6.2
+seaborn==0.12.2
+numpy==1.24.0
+scikit-learn==1.2.1
+gunicorn
+pickle4
