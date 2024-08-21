@@ -14,6 +14,7 @@ const Search = () => {
     const [noPlayersFound, setNoPlayersFound] = useState(false); // State for "No players found"
     const [inputError, setInputError] = useState(false); // State for "Please input player data"
     const [showMoreOptions, setShowMoreOptions] = useState(true); // State to show more options
+    const [loading, setLoading] = useState(false);
 
     // Mapping of criteria to display names
     const criteriaDisplayNames = {
@@ -72,6 +73,8 @@ const Search = () => {
             }
         }
 
+        setLoading(true);
+
         try {
             const response = await axios.get('https://statswish.onrender.com/api/v1/player', {
                 params: {
@@ -89,6 +92,8 @@ const Search = () => {
         } catch (error) {
             console.error('Error fetching players:', error);
             setError('Failed to fetch players. Please try again.');
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -294,6 +299,7 @@ const Search = () => {
             
             <div className="search-results">
 
+                {loading && <div className="spinner"></div>} {/* Display spinner */}
                 {error && <h4 className="error">{error}</h4>}
                 {inputError && <h4 className="error">Please input player data</h4>}
                 {noPlayersFound && <h4 className="error">No players found</h4>}

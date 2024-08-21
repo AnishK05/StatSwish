@@ -10,9 +10,11 @@ const TeamRoster = () => {
     const { teamName } = useParams(); // Capture the abbreviation from the URL
     const [players, setPlayers] = useState([]);
     const [error, setError] = useState(null); // State to manage errors
+    const [loading, setLoading] = useState(null);
 
     useEffect(() => {
         const fetchPlayers = async () => {
+            setLoading(true);
             try {
                 const response = await axios.get(`https://statswish.onrender.com/api/v1/player?team=${teamName}`);
                 setPlayers(response.data); // Assuming the response is an array of players
@@ -20,6 +22,8 @@ const TeamRoster = () => {
             } catch (error) {
                 console.error('Error fetching players:', error);
                 setError('Failed to fetch players. Please try again.');
+            } finally {
+                setLoading(false);
             }
         };
 
@@ -27,7 +31,10 @@ const TeamRoster = () => {
     }, [teamName]);
 
     const renderPlayers = () => {
-        if (error) return <p className="error">{error}</p>; // Display error if present
+        if (error) 
+            return <p className="error">{error}</p>; // Display error if present
+        if (loading)
+            return <div className="spinner"></div>
 
         return (
             <table className="team-players-table">
