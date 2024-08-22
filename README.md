@@ -22,7 +22,7 @@ Users can search for player statistics by team, position, or 20 custom filters, 
 * **Advanced Data Metrics:** Utilize detailed data to optimize NBA Fantasy teams, analyze player performance, and enhance betting strategies.
 * **Machine Learning Match Predictor:** Leverage AI-driven models to predict game outcomes, offering insights for fantasy sports and betting.
 * **CRUD Operations:** Perform Create, Read, Update, and Delete operations to manage NBA data and user preferences seamlessly.
-* *Data Scraping:* Scraped data for 700+ NBA players using Python to ensure the platform is populated with accurate and current information.
+* **Data Scraping:** Scraped data for 700+ NBA players using Python to ensure the platform is populated with accurate and current information.
 * **Responsive and Stylish User Interface:** Experience a consistent and visually appealing design across all devices, using SCSS and CSS for styling.
 * **Robust Back-End Architecture:** Utilize a dual-framework back-end with Spring Boot handling core application logic and Flask managing AI models and specific API endpoints.
 * **Search & Filter Capabilities:** Easily locate players and stats using an intuitive search bar with 20 advanced filtering options.
