@@ -28,5 +28,3 @@ View the website [here](https://statswish.vercel.app/)
 * **Responsive and Stylish User Interface:** Experience a consistent and visually appealing design across all devices, using SCSS and CSS for styling.
 * **Robust Back-End Architecture:** Utilize a dual-framework back-end with Spring Boot handling core application logic and Flask managing AI models and specific API endpoints.
 * **Search & Filter Capabilities:** Easily locate players and stats using an intuitive search bar with 20 advanced filtering options.
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AnishK05&size_weight=0&count_weight=1&langs_count=7)
