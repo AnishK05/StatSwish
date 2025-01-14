@@ -2,7 +2,7 @@
 
 ## Overview
 
-**StatSwish** is a full-stack CRUD web application designed to provide comprehensive NBA fantasy statistics, advanced data metrics, and AI-driven game analysis. Users can search for player statistics by team, position, or 20 custom filters, and analyze upcoming games using AI predictions. Additionally, StatSwish includes a Python data scraping component that scrapes data from over 700 NBA players to ensure accurate and up-to-date statistics. The platform utilizes a modern tech stack, including React.js, Spring Boot, Flask, and machine learning (Python), to create a user-friendly experience for exploring and analyzing NBA data.
+**StatSwish** is a full-stack CRUD web application that provides NBA fantasy enthusiasts and analysts with access to advanced statistics, comprehensive data metrics, and AI-powered game analysis. Users can search player statistics by team, position, or 20 custom filters, while the platform’s machine learning models automatically analyze upcoming games to deliver predictions. Additionally, StatSwish integrates Python-based data scraping to ensure accurate and current statistics for over 700 NBA players. The platform utilizes a modern tech stack, including React.js, Spring Boot, Flask, PostgreSQL, and machine learning (Python), to create a user-friendly experience for exploring and analyzing NBA data.
 
 View the website [here](https://statswish.vercel.app/)
 
@@ -18,11 +18,8 @@ View the website [here](https://statswish.vercel.app/)
 
 ## Features & Project Highlights
 
-* **Comprehensive NBA Statistics:** Access extensive NBA player statistics, searchable by team, position, or 20 custom metrics.
-* **Advanced Data Metrics:** Utilize detailed data to optimize NBA Fantasy teams, analyze player performance, and enhance betting strategies.
-* **Machine Learning Match Predictor:** Leverage AI-driven models to predict game outcomes, offering insights for fantasy sports and betting.
-* **CRUD Operations:** Perform Create, Read, Update, and Delete operations to manage NBA data and user preferences seamlessly.
-* **Data Scraping:** Scraped data for 700+ NBA players using Python to ensure the platform is populated with accurate and current information.
-* **Responsive and Stylish User Interface:** Experience a consistent and visually appealing design across all devices, using SCSS and CSS for styling.
-* **Robust Back-End Architecture:** Utilize a dual-framework back-end with Spring Boot handling core application logic and Flask managing AI models and specific API endpoints.
-* **Search & Filter Capabilities:** Easily locate players and stats using an intuitive search bar with 20 advanced filtering options.
+* **Front-End:** Developed using React.js to deliver a modular, component-based architecture. Utilizes React hooks for efficient state management and client-side routing, and connects seamlessly to RESTful APIs to fetch and display real-time NBA statistics and predictions.
+* **Back-End:** Built with a dual-framework architecture using Flask and Spring Boot, both leveraging RESTful APIs to handle specific functionalities. Flask processes machine learning predictions and serves them via lightweight API endpoints, while Spring Boot handles CRUD operations and secure data access.
+* **Database:** Utilizes PostgreSQL to support advanced queries, enabling 20 custom filtering options for player statistics. The schema is optimized for efficient data retrieval, supporting filters by team, position, and other custom metrics.
+* **Machine Learning Model:** Implements a Python-based logistic regression model optimized with grid search, achieving a performance accuracy of 65%, on par with top of the line models (66-72%). The model analyzes historical game data, utilizing advanced basketball statistics such as effective field goal percentage (eFG%), turnover percentage (TOV%), offensive rebounding percentage (ORB%), and free throw rate (FTr) to generate accurate game outcome predictions.
+* **Data Scraping:** Scrapes and processes real-time statistics for 700+ NBA players using Python scripts, automating updates to maintain accurate and up-to-date player data.
