@@ -2,7 +2,7 @@
 
 ## Overview
 
-**StatSwish** is a sophisticated full-stack CRUD web application designed to provide comprehensive NBA statistics, advanced data metrics, and AI-driven game predictions. Built for basketball enthusiasts and fantasy sports players, StatSwish delivers real-time data and predictive insights to help users make informed decisions. The platform utilizes a modern tech stack, including React.js, Spring Boot, Flask, and machine learning, to create a user-friendly and powerful tool for exploring NBA data.
+**StatSwish** is a full-stack CRUD web application designed to provide comprehensive NBA fantasy statistics, advanced data metrics, and AI-driven game analysis. Users can search for player statistics by team, position, or 20 custom filters, and analyze upcoming games using AI predictions. Additionally, StatSwish includes a Python data scraping component that scrapes data from over 700 NBA players to ensure accurate and up-to-date statistics. The platform utilizes a modern tech stack, including React.js, Spring Boot, Flask, and machine learning (Python), to create a user-friendly experience for exploring and analyzing NBA data.
 
 View the website [here](https://statswish.vercel.app/)
 
