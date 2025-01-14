@@ -6,14 +6,14 @@
 
 View the website [here](https://statswish.vercel.app/)
 
-Users can search for player statistics by team, position, or 20 custom filters, and analyze upcoming games using machine learning predictions. Whether you’re building an NBA Fantasy team, tracking favorite players, or analyzing match-ups, StatSwish provides the data and tools you need. Additionally, StatSwish includes a data scraping component, developed in Python, that scrapes data from over 700 NBA players to populate the database with accurate and up-to-date statistics. The front-end is built with ReactJS and styled using SCSS and CSS, ensuring a responsive and visually appealing user interface. The back-end combines the robustness of Spring Boot and the flexibility of Flask to manage data processing, machine learning models, and scalable API services.
+Users can search for player statistics by team, position, or 20 custom filters, and analyze upcoming games using machine learning predictions. Whether you’re building an NBA Fantasy team, tracking favorite players, or analyzing match-ups, StatSwish provides the data and tools you need. Additionally, StatSwish includes a data scraping component, developed in Python, that scrapes data from over 700 NBA players to populate the database with accurate and up-to-date statistics. The front-end is built with React.js and styled using SCSS and CSS, ensuring a responsive and visually appealing user interface. The back-end combines the robustness of Spring Boot and the flexibility of Flask to manage data processing, machine learning models, and scalable API services.
 
 ![StatSwish Screenshot](statswishscreenshot.png)
 
 ## Technologies Used
 
 * **Front-End:** React.js, HTML, SCSS, CSS
-* **Back-End:** Spring Boot (Java), Flask (Python), RESTful API, Machine Learning (Python)
+* **Back-End:** Spring Boot, Flast, RESTful APIs, Machine Learning (Python)
 * **Data Scraping:** Python (for scraping 700+ NBA players' data)
 * **Database:** PostgreSQL
 * **Deployment:** Vercel (Front-End), Render (Back-End), Supabase (Database)
