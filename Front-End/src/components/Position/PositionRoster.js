@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import axios from '../../axiosConfig';
 import './PositionRoster.scss';
 import useScrollToTop from '../../useScrollToTop';
+import { getPlayersByPosition } from '../../services/playerDataService';
 
 const PositionRoster = () => {
     useScrollToTop();
@@ -16,8 +16,8 @@ const PositionRoster = () => {
         const fetchPlayers = async () => {
             setLoading(true);
             try {
-                const response = await axios.get(`https://statswish.onrender.com/api/v1/player?position=${positionName}`);
-                setPlayers(response.data); // Assuming the response is an array of players
+                const playerData = await getPlayersByPosition(positionName);
+                setPlayers(playerData); // Set the filtered players
                 setError(null); // Clear previous errors
             } catch (error) {
                 console.error('Error fetching players:', error);

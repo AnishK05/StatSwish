@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import axios from '../../axiosConfig';
 import './index.scss';
 import useScrollToTop from '../../useScrollToTop';
+import { searchPlayers } from '../../services/playerDataService';
 
 const Search = () => {
     useScrollToTop();
@@ -76,18 +76,14 @@ const Search = () => {
         setLoading(true);
 
         try {
-            const response = await axios.get('https://statswish.onrender.com/api/v1/player', {
-                params: {
-                    [searchCriteria]: adjustedSearchTerm,
-                },
-            });
-            if (response.data.length === 0) {
+            const playerData = await searchPlayers(searchCriteria, adjustedSearchTerm);
+            if (playerData.length === 0) {
                 setNoPlayersFound(true); // Set "No players found" message
                 setInputError(false);
             } else {
                 setNoPlayersFound(false); // Clear the message if players are found
             }
-            setPlayers(response.data);
+            setPlayers(playerData);
             setError(null); // Clear previous errors
         } catch (error) {
             console.error('Error fetching players:', error);

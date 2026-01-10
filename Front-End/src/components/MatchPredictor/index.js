@@ -34,7 +34,7 @@ const MatchPredictor = () => {
 
         setLoading(true); // Set loading to true before fetching
 
-        fetch('https://statswishml.onrender.com/predict', {
+        fetch('https://statswish-ml.vercel.app/predict', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
