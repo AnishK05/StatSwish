@@ -79,7 +79,7 @@ const MatchPredictor = () => {
     return (
         <div className="match-predictor">
             <h1 className="match-predictor-title">NBA Regular Season Match Predictor</h1>
-            <h3 className="caption">Predict upcoming match-ups using our custom built machine learning model! For more information about the model's architecture, visit our <Link to="https://github.com/AnishK05">Github</Link></h3>
+            <h3 className="caption">Predict upcoming match-ups using our custom built machine learning model! For more information about the model's architecture, visit our <Link to="https://github.com/AnishK05/StatSwish">Github</Link></h3>
             <form onSubmit={(e) => { e.preventDefault(); handlePredict(); }}>
                 <div className="team-selection">
                     <h3 className="selector-title">Home Team</h3>
